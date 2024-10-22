@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", system-ui;
+   background-color: #000;
+   color: #fff;
+ 
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*HEADER*/
+.header {
+  position: relative;
+
+  background-image: url('../img/prins.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 765px; 
+
+  width: 100%;
+
+  padding: 33px 0 94px 0;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 39px;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.header__text {
+  color: #00ADB5;
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: -0.11em;
+}
+
+
+.header__nav-list {
+  display: flex;
+  float: right;
+  gap: 50px;
+}
+
+.header__nav-item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+}
+
+.header__nav-item:hover {
+  color: #00ADB5;
+  transition: all 0.2s ease-in;
+}
+
+.header__hero{
+ padding-bottom:  94px;
+}
+
+.header__hero-text { /*Разрабатываю имиджевые сайты для малого и среднего бизнеса,
+  которые повышают престиж компании и позволяют выделиться на фоне конкурентов*/
+  margin-top: 252px;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.header__title {/* Привет, я Саша — фронтенд разарботчик и дизайнер сайтов */
+  margin-top: 29px;
+  max-width: 919px;
+  height: 205px;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+
+}
+
+
+/* -------------projects----------------- */
+
+.projects {
+  padding-top: 150px;
+  margin-bottom: 150px;
+}
+
+.projects__title { /*Самые свежие проекты*/
+  margin-bottom: 40px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.projects__contant-item{
+  position: relative;
+  height: 550px;
+}
+
+.projects__contant-item:last-child {
+  margin-bottom: 80px;
+}
+
+.projects__contant-wrapper{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.projects__contant-img {
+  border-radius: 35px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects__contant-title {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.projects__contant-text {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.project__item{
+  position: relative;
+  max-width: 30%;
+  height: 50%;
+  top: 80px;
+  left: 45px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 20px;
+  line-height: 27px;
+  background-color: #00ADB5;
+  color: rgb(0, 0, 0);
+}
+
+.projects__btn {
+  display: block;
+  border: 1px solid #00ADB5;
+  width: 582px;
+  height: 153px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 56px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  background-color: #00ADB5;
+}
+
+.projects-btn:hover {
+  color: #00ADB5;
+  background-color: black;
+  transition: all 0.2s ease-in;
+}
+
+/* -----------------competencies------------ */
+
+.competencies {
+  margin-bottom: 150px;
+}
+
+.competencies__title { /*Мои компетенции*/
+  margin-bottom: 50px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+}
+
+.competencies__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 36px;  
+}
+
+.competencies__item {
+  width: 50%;
+
+  margin-bottom: 60px; 
+}
+
+.competencies__item-img {
+  margin-bottom: 12px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+.competencies__item-title {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #00ADB5;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+}
+
+
+/* .competencies__item-title-2 {
+  padding-right: 460px;
+} */
+
+.competencies__item-text {
+  max-width: 778px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  letter-spacing: -0.03em;
+}
+
+/* --------------spectrum--------------- */
+
+
+.spectrum {
+  margin-bottom: 150px;
+}
+
+.spectrum__title {/*Помогаю реализовать широкий спектр задач*/
+  width: 403px;
+  margin-bottom: 75px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.spectrum__list{
+    display: flex;
+    flex-direction: column;
+}
+.spectrum__item {
+  margin-bottom: 74px;
+}
+.spectrum__wrapper-img{
+  height: 200px;
+  
+}
+.spectrum__img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spectrum__item-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 40px 40px;
+  max-width: 100%;
+  background-color: #191C19;
+  border-radius: 30px;
+}
+
+.spectrum__item-title {
+  margin-bottom: 15px;
+  color: #00ADB5;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.spectrum__item-text {
+  width: 749px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+/* --------------contacts-------------- */
+
+.contacts {
+  /* position: relative; */
+  height: 717px;
+  max-width: 100%;
+  margin-bottom: 150px;
+  /* background-image: url('../img/cuate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #191C19;
+  background-position: 50% 50%;
+  border-radius: 30px; */
+}
+
+.contacts__wrap{
+  display: flex;
+  gap: 153px;
+}
+
+.contacts__photo--image{
+  border-radius: 220px;
+}
+
+.contacts__title {/*для связи:*/
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  margin-bottom: 60px;
+
+  font-size: 60px;
+  
+
+}
+
+.contacts__lists{
+  bottom: 89px;
+  position: absolute;
+  font-size: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.contacts__item-link{
+  margin-bottom: 20px;
+}
+
+.contacts__item-link:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__item-link:hover {
+  color: #00ADB5;
+}
+
+.form__group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+
+  padding: 16px 338px 15px 38px;
+  border-radius: 1000px;
+  width: 567px;
+  height: 60px;
+  background: rgb(59, 61, 59);
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -3%;
+    /* text-align: left; */
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  display: none;
+  /* Hidden by default */
+}
+
+.contacts__button {
+  background-color: #00ADB5;
+  color: #fff;
+  width: 450px;
+  padding: 20px 0;
+  font-size: 22px;
+  line-height: 29px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  margin-top: 60px;
+}
+
+.contacts__button:hover {
+  background-color: #fff;
+  color: #00ADB5;
+}
+
+
+/* ------------------Footer ------------------------ */
+
+.footer {
+  padding: 76px 0;
+ border-radius: 30px 30px 0px 0px;
+  background-color: #fff;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 65px;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: normal;
+}
+
+.footer__title {
+  color: #000;
+}
+
+.footer__list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.footer__link {}
+
+.mail,
+.telegram,
+.whatsapp {
+  color: #000;
+  text-decoration: none;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
+}
+
+.footer__title {}
+
+.footer__text {}
+
+.footer__title {/*Портфолио фротнтенд-разработчика Саши Орлова*/
+  margin-bottom: 66px;
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.05px;
+  letter-spacing: -0.03em;
+  
+}
+
+.footer__text{ /*Все права защищены. 2023*/
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+}
+
+
+/*БУРГЕР*/
+
+.burger-btn {
+  position: absolute;
+  top: 43px;
+  right: 15px;
+  z-index: 100;
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  background: rgb(255, 255, 255, 0.9);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.burger_open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burger__content {
+  width: 95%;
+  height: 100%;
+  overflow-y: auto;
+  background: rgb(0, 0, 0);
+  padding: 73px 0px 0px 28px;
+  transition: transform 0.3s linear;
+  transform: translateX(100%);
+}
+
+.burger_open .burger__content {
+  transform: translateX(0);
+}
+
+.burger__logo-link {
+  margin-left: -23px;
+}
+
+.burger__logo {
+  width: 180px;
+  margin-bottom: 37px;
+}
+
+.header__text--burger{
+  width: 130px;
+  height: 55px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 100px;
+  margin-bottom: 37px;
+}
+.burger__menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+}
+
+.burger__menu-item {
+  width: fit-content;
+}
+
+.burger__menu-item a {
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.burger__menu-item:hover {
+  border-bottom: 1px solid rgb(18, 18, 18);
+  opacity: 0.5;
+  line-height: 27px;
+}
+
+.burger__menu-item:active {
+  opacity: 0.5;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.burger__footer__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+}
+
+.burger__heading {
+  margin-top: 91px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
+}
+
+.burger__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 18px;
+}
+
+.burger__mail a,
+.burger__telegram a,
+.burger__whatsapp a {
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+

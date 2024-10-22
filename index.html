@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__nav">
+      <div class="header__logo">
+        <p class="header__text">Prinz</p>
+      </div>
+  
+      <nav>
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#projects">портфолио</a></li>
+          <li class="header__nav-item"><a href="#competencies">компетенции</a></li>
+          <li class="header__nav-item"><a href="#spectrum">услуги</a></li>
+          <li class="header__nav-item"><a href="#contacts">контакты</a></li>
+        </ul>
+
+    <!-- Бургер -->
+    <button class="js-burger-btn burger-btn"></button>
+    <!-- бургер окно-->
+    <div class="js-burger burger">
+      <div class="burger__content">
+        <a href="#" class="burger__logo-link">
+         <p class="header__text  header__text--burger">Prinz</p>
+        </a>
+        <nav class="burger__nav">
+          <ul class="burger__menu">
+            <li class="burger__menu-item">
+              <a href="#projects">Портфолио</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="#competencies">Компетенции</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="#spectrum">Услуги</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="js-burger__content burger__footer">
+          <adress>
+            <div class="burger__footer__wrap">
+              <p class="burger__heading">для связи:</p>
+              <ul class="burger__list">
+                <li class="burger__mail">
+                  <a href="#" target="_blank">mail</a>
+                </li>
+                <li class="burger__whatsapp">
+                  <a href="#" target="_blank">whatsapp</a>
+                </li>
+                <li class="burger__telegram">
+                  <a href="#" target="_blank">telegram</a>
+                </li>
+              </ul>
+            </div>
+          </adress>
+        </div>
+      </div>
+    </div>
+      </nav>
+    </div>
+      <div class="header__hero">
+  
+      <p class="header__hero-text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж
+        компании и позволяют
+        выделиться на фоне конкурентов</p>
+      <h1 class="header__title">Привет, я Коля — фронтенд разработчик и дизайнер сайтов</h1>
+     </div> 
+    
+    </div>
+
+
+
+
+  </header>
+
+    <main class="main">
+    
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="projects__title">Самые свежие проекты</h2>
+    
+          <ul class="projects__contant">
+            <li >
+              <a class="projects__contant-item" href="#">
+
+                <div class="projects__contant-wrapper">
+                <h3 class="projects__contant-title">Метрика</h3>
+                <p class="projects__contant-text">верстка, настройка</p>
+                  
+                </div>
+
+               <div class="project__item">дизайн интерьера</div>
+
+                <picture>
+                <source media="(max-width:500px )" srcset="img\21.jpeg">
+                 <img class="projects__contant-img" src="img/metrika_1199.jpeg" alt="A">
+                </picture>
+               
+              </a>
+            </li>
+    
+            <li >
+              <a class="projects__contant-item" href="#">
+                <div class="projects__contant-wrapper">
+                <h3 class="projects__contant-title">Nothing</h3>
+                <p class="projects__contant-text">верстка, настройка</p>
+              </div>
+              <div class="project__item">презентация продукта</div>
+              <picture>
+                <source media="(max-width:500px )" srcset="img\22.jpeg">                
+                <img class="projects__contant-img" src="img/nothing_1199.jpeg" alt="B">
+              </picture>
+
+              </a>
+            </li>
+    
+            <li >
+              <a class="projects__contant-item" href="#">
+                <div class="projects__contant-wrapper">
+                <h3 class="projects__contant-title">toptrip</h3>
+                <p class="projects__contant-text">верстка</p>
+                </div>
+                <div class="project__item">заказ путешествий</div>
+                <picture>
+                  <source media="(max-width:500px )" srcset="img\23.jpeg">                
+                  <img class="projects__contant-img" src="img/toptrip_1199.jpeg" alt="C">
+                </picture>
+
+              </a>
+            </li>
+          </ul>
+          <a class="projects__btn" href="#">Смотреть все проекты</a>
+        </div>
+      </section>
+    
+<section id="competencies" class="competencies">
+        <div class="container">
+          <h2 class="competencies__title">Мои компетенции</h2>
+    
+          <ul class="competencies__list">
+            <li class="competencies__item">
+              <img class="competencies__item-img" src="img/51.svg" alt="1">
+              <h3 class="competencies__item-title">HTML и CSS</h3>
+              <p class="competencies__item-text">это основа фронтенд разработки. Умение создавать и правильно структурировать
+                HTML-документы, а также
+                применять стили к этим документам на CSS, является обязательным навыком для каждого фронтенд разработчика.
+              </p>
+            </li>
+    
+            <li class="competencies__item">
+              <img class="competencies-img" src="img/52.svg" alt="2">
+              <h3 class="competencies__item-title">JavaScript</h3>
+              <p class="competencies__item-text">это язык программирования, который используется для создания динамического и
+                интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами
+                JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне
+                клиента.</p>
+            </li>
+    
+            <li class="competencies__item">
+              <img class="competencies__item-img" src="img/53.svg" alt="3">
+              <h3 class="competencies__item-title">Работа с библиотеками и фреймворками</h3>
+              <p class="competencies__item-text">фронтенд разработчики должны быть знакомы с различными библиотеками и
+                фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать
+                их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+            </li>
+    
+            <li class="competencies__item">
+              <img class="competencies__item-img" src="img/54.svg" alt="4">
+              <h3 class="competencies__item-title competencies__item-title-2">Разработка для мобильных устройств и адаптивная верстка</h3>
+              <p class="competencies__item-text">фронтенд разработчики должны быть знакомы с различными библиотеками и
+                фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать
+                их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+            </li>
+          </ul>
+    
+        </div>
+      </section> 
+    
+<section id="spectrum" class="spectrum">
+        <div class="container">
+          <h2 class="spectrum__title">Помогаю реализовать широкий спектр задач</h2>
+    
+          <ul class="spectrum__list">
+            <li class="spectrum__item">
+              <div class="spectrum__wrapper-img">
+                 <img class="spectrum__img" src="img/section__3A.jpg" alt="A">
+              </div>
+             
+              <div class="spectrum__item-box">
+                <h3 class="spectrum__item-title">Разработка сайта под ключ</h3>
+                <p class="spectrum__item-text">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения
+                  бизнес-задач
+                  Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит
+                  целевое действие</p>
+              </div>
+            </li>
+    
+            <li class="spectrum__item">
+              <div class="spectrum__wrapper-img">
+                  <img class="spectrum__img" src="img/section__3B.jpg" alt="B">
+              </div>
+            
+              <div class="spectrum__item-box">
+                <h3 class="spectrum__item-title">Верстка сайтов</h3>
+                <p class="spectrum__item-text">Это процесс создания HTML-документов и применения к ним стилей на CSS.
+                  Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+              </div>
+            </li>
+    
+            <li class="spectrum__item">
+              <div class="spectrum__wrapper-img">
+                 <img class="spectrum__img" src="img/section__3C.jpg" alt="C">
+              </div>
+             
+              <div class="spectrum__item-box">
+                <h3 class="spectrum__item-title">Разработка мобильного интерфейса</h3>
+                <p class="spectrum__item-text">Это процесс создания интерактивных элементов на странице с помощью JavaScript.
+                  Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего
+                  сайта или приложения.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section> 
+    
+<section id="contacts" class="contacts">
+        <div class="container">
+        <div class="contacts__wrap">
+
+            <div class="contacts-form-container">
+              <h2 class="contacts__title" >Для связи со мной заполните простую форму</h2>
+              <form id="contactForm">
+                <div class="form__group">
+                  <!-- <label for="name">Name</label> -->
+                  <input type="text" id="name" name="name" placeholder="Имя Фамилия" required>
+                  <span class="error-message" id="nameError"></span>
+                </div>
+                <div class="form__group">
+                  <!-- <label for="email">Email</label> -->
+                  <input type="email" id="email" name="email" placeholder="Email" required>
+                  <span class="error-message" id="emailError"></span>
+                </div>
+
+                <button type="submit" class="contacts__button">
+                  Отправить
+                </button>
+              </form>
+            </div>
+
+      <div class="contacts__photo">
+          <img  class="contacts__photo--image" src="./img/prins2.jpg" alt="1" />
+      </div>
+
+
+
+</div>
+          <!-- <ul class="contacts__lists">
+            <li class="contacts__item-link">
+              <a class="contacts__link" href="#">instagram</a>
+            </li>
+
+            <li class="contacts__item-link">
+              <a class="contacts__link" href="#">telegram</a>
+            </li>
+
+          <li class="contacts__item-link">
+            <a class="contacts__link" href="#">mail</a>
+          </li>
+
+
+          </ul> -->
+        </div>
+      </section> 
+</main>
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+    <h3 class="footer__title">Портфолио фротнтенд-разработчика Саши Орлова</h3>
+    <p class="footer__text">Все права защищены. 2023</p>
+  </div>
+</div>
+</footer>  -->
+
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+
+        <div class="footer__body">
+          <h3 class="footer__title">
+            Портфолио фронтенд-разработчика Николай Принцев
+          </h3>
+          <ul class="footer__list">
+            <li class="footer__link">
+              <a href="mailto:nnaarraa@mail.ru" target="_blank" class="mail">mail</a>
+            </li>
+            <li class="footer__link">
+              <a href="#" target="_blank" class="telegram">telegram</a>
+            </li>
+            <li class="footer__link">
+              <a href="https://wa.me/79533512608" target="_blank" class="whatsapp">whatsapp</a>
+            </li>
+          </ul>
+        </div>
+
+    <div class="footer__inner">
+    <p class="footer__text">Все права защищены. 2024</p>
+    <p class="footer__text">Политика обработки данных</p>
+  </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./js/burger.js"></script>
+  
+</body>
+</html>
